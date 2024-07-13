@@ -69,6 +69,7 @@ function setAnimation(key) {
 }
 
 function startOver() {
+    addSound("wrong");
     var body = document.querySelector("body");
     body.classList.add("gameover");
     setTimeout(function() {
